@@ -43,7 +43,7 @@ extension AuthNetworkTarget: NetworkTarget {
         return Data()
     }
     
-    var task: HTTPTask {
+    var task: BinaryLoaderNetwork.Task {
         var parameters: [String: Any] = [
             "api": "SYNO.PhotoStation.Auth",
             "version": "1"
