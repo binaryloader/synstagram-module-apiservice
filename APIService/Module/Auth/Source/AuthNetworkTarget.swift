@@ -35,7 +35,7 @@ extension AuthNetworkTarget: NetworkTarget {
         return "/auth.php"
     }
     
-    var method: BinaryloaderNetwork.Method {
+    var method: BinaryloaderNetwork.HTTPMethod {
         return .get
     }
     
@@ -43,7 +43,7 @@ extension AuthNetworkTarget: NetworkTarget {
         return Data()
     }
     
-    var task: Task {
+    var task: HTTPTask {
         var parameters: [String: Any] = [
             "api": "SYNO.PhotoStation.Auth",
             "version": "1"
