@@ -9,8 +9,8 @@ Authentication service including login and logout models, network targets, and s
 
 ## Dependencies
 
-- BinaryLoaderExtensions 1.0.2
-- BinaryLoaderNetwork 1.0.4
+- BinaryLoaderExtensions 1.0.3
+- BinaryLoaderNetwork 1.0.5
 
 ## Installation
 
