@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'APIService'
-  s.version = '1.0.6'
+  s.version = '1.0.7'
   s.license = { :type => 'MIT' }
   s.homepage = 'https://github.com/binaryloader/synstagram-module-apiservice'
   s.authors = { 'binaryloader' => '152517454+binaryloader@users.noreply.github.com' }
