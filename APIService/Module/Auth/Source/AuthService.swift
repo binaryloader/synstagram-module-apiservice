@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import BinaryloaderNetwork
+import BinaryLoaderNetwork
 
 public final class AuthService {
     

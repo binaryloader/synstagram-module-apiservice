@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
 
   s.source = { :git => 'https://github.com/binaryloader/synstagram-module-apiservice.git', :tag => s.version }
 
-  s.dependency 'BinaryloaderExtensions', '1.0.2'
+  s.dependency 'BinaryLoaderExtensions', '1.0.2'
 
   s.default_subspec = :none
 
   s.subspec 'Auth' do |ss|
     ss.source_files = 'APIService/Module/Auth/Source/*.swift'
-    ss.dependency 'BinaryloaderNetwork', '1.0.4'
+    ss.dependency 'BinaryLoaderNetwork', '1.0.4'
   end
 end

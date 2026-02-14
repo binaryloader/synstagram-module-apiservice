@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/binaryloader/iOS-Binaryloader-Module-CocoaPods-Specs.git'
+source 'https://github.com/binaryloader/iOS-BinaryLoader-Module-CocoaPods-Specs.git'
 
 platform :ios, '11.0'
 project 'APIService'
@@ -7,11 +7,11 @@ inhibit_all_warnings!
 use_frameworks!
 
 def binaryloaderExtensions
-    pod 'BinaryloaderExtensions', '1.0.2'
+    pod 'BinaryLoaderExtensions', '1.0.2'
 end
 
 def binaryloaderNetwork
-    pod 'BinaryloaderNetwork', '1.0.4'
+    pod 'BinaryLoaderNetwork', '1.0.4'
 end
 
 target :'Auth' do

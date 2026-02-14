@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import BinaryloaderExtensions
-import BinaryloaderNetwork
+import BinaryLoaderExtensions
+import BinaryLoaderNetwork
 
 struct AuthNetworkTarget {
     
@@ -35,7 +35,7 @@ extension AuthNetworkTarget: NetworkTarget {
         return "/auth.php"
     }
     
-    var method: BinaryloaderNetwork.HTTPMethod {
+    var method: BinaryLoaderNetwork.Method {
         return .get
     }
     
