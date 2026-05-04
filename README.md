@@ -1,3 +1,5 @@
+**English** | [한국어](docs/i18n/ko/README.md) | [日本語](docs/i18n/ja/README.md)
+
 # synstagram-module-apiservice
 
 API service module for the Synstagram iOS app, distributed as a CocoaPods pod.
@@ -5,6 +7,7 @@ API service module for the Synstagram iOS app, distributed as a CocoaPods pod.
 ## Modules
 
 ### Auth
+
 Authentication service including login and logout models, network targets, and service layer.
 
 ## Dependencies
